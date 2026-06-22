@@ -82,3 +82,11 @@ Edit the text, links and brand colours there and the UI updates automatically.
   `public/projects/<name>.png`. Missing files fall back gracefully.
 - All colours, fonts and radii are CSS variables at the top of
   `src/styles/index.css` (`:root`) — change them to re-skin the whole site.
+
+## Author
+
+**Jawad Noori** — aspiring Machine Learning engineer.
+
+- Website: https://jawadnoori.co.uk
+- GitHub: https://github.com/Jawadnoori1718
+- LinkedIn: https://www.linkedin.com/in/jawadnoori1/
