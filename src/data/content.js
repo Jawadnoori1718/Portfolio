@@ -116,7 +116,7 @@ export const PROJECTS = [
     img: 'streetpulse',
     summary:
       'Real-time crime & incident mapping with risk scoring, AI assistant and heatmaps across West London.',
-    demo: 'https://github.com/Jawadnoori1718/streetpulse',
+    demo: 'https://street-pulse-urban-safety-intellige.vercel.app/',
     repo: 'https://github.com/Jawadnoori1718/streetpulse',
   },
   {
