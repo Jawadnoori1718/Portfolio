@@ -27,15 +27,17 @@ export default function Projects() {
               <h3 className="proj__name">{p.name}</h3>
               <p className="proj__summary">{p.summary}</p>
               <div className="proj__actions">
-                <a
-                  className="proj__btn proj__btn--demo"
-                  href={p.demo}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <Icon name="globe" width={19} height={19} />
-                  Demo
-                </a>
+                {p.demo && (
+                  <a
+                    className="proj__btn proj__btn--demo"
+                    href={p.demo}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Icon name="globe" width={19} height={19} />
+                    Demo
+                  </a>
+                )}
                 <a
                   className="proj__btn proj__btn--code"
                   href={p.repo}

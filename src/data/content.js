@@ -120,6 +120,22 @@ export const PROJECTS = [
     repo: 'https://github.com/Jawadnoori1718/streetpulse',
   },
   {
+    name: 'BigBrother',
+    art: 'robot',
+    img: 'bigbrother',
+    summary:
+      'Turns any webcam into a programmable eye — open-vocabulary YOLO-World detection, zone counting and a plain-language rules engine, running fully offline on GPU.',
+    repo: 'https://github.com/Jawadnoori1718/BigBrother---AI-Powered-Camera-Intelligence',
+  },
+  {
+    name: 'PashtoBench',
+    art: 'dashboard',
+    img: 'pashtobench',
+    summary:
+      'The first unified capability & safety benchmark for Pashto — 165 native-authored items scoring six frontier models on translation, QA, instruction-following and refusal consistency.',
+    repo: 'https://github.com/Jawadnoori1718/PashtoBench',
+  },
+  {
     name: 'HillingOne',
     art: 'dashboard',
     img: 'hillingone',
@@ -146,7 +162,7 @@ export const EDUCATION = [
     url: 'https://www.brunel.ac.uk/',
     color: '#002951', // Brunel Prussian Blue — exact brand colour
     solidBg: true,
-    course: 'BSc Computer Science (Artificial Intelligence)',
+    course: 'BSc Computer Science',
     date: 'Sep 2024 – Jun 2027',
     result: 'Predicted First Class Honours',
     modules: [
