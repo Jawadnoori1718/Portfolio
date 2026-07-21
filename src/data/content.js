@@ -128,12 +128,12 @@ export const PROJECTS = [
     repo: 'https://github.com/Jawadnoori1718/BigBrother---AI-Powered-Camera-Intelligence',
   },
   {
-    name: 'PashtoBench',
+    name: 'PersianToken',
     art: 'dashboard',
-    img: 'pashtobench',
+    img: 'persiantoken',
     summary:
-      'The first unified capability & safety benchmark for Pashto — 165 native-authored items scoring six frontier models on translation, QA, instruction-following and refusal consistency.',
-    repo: 'https://github.com/Jawadnoori1718/PashtoBench',
+      'Measures the hidden "token tariff" Persian speakers pay — parallel-corpus tokenisation across major tokenisers, with bootstrapped confidence intervals on the extra cost and lost context.',
+    repo: 'https://github.com/Jawadnoori1718/PersianToken',
   },
   {
     name: 'HillingOne',
