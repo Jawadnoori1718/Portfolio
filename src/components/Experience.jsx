@@ -14,7 +14,10 @@ export default function Experience() {
             key={job.org}
             delay={i * 0.08}
             className="card card--exp card--solid"
-            style={{ background: shade(job.color), '--ink': inkFor(shade(job.color)) }}
+            style={{
+              background: shade(job.color, job.shade),
+              '--ink': inkFor(shade(job.color, job.shade)),
+            }}
           >
             <span className="card__spark" aria-hidden="true" />
             <div className="exp__head">

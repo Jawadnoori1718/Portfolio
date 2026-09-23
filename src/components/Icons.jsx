@@ -140,6 +140,30 @@ const Jam = (p) => (
     <text x="24" y="18" textAnchor="middle" fontFamily="'Space Grotesk', sans-serif" fontWeight="700" fontSize="18" fill="currentColor">JAM</text>
   </svg>
 )
+// Hillingdon Council — a civic building: pediment, columns, steps.
+const Hillingdon = (p) => (
+  <svg {...base(p)}>
+    <path d="M12 3.2 21 8.4H3Z" {...stroke} />
+    <path d="M6.5 10.6v6.8M10 10.6v6.8M14 10.6v6.8M17.5 10.6v6.8" {...stroke} />
+    <path d="M3.4 20.2h17.2" {...stroke} />
+  </svg>
+)
+// Uxbridge Library — an open book.
+const UxbridgeLibrary = (p) => (
+  <svg {...base(p)}>
+    <path d="M12 7.2C10.4 5.8 7.6 5.2 4 5.4v12.2c3.6-.2 6.4.4 8 1.8 1.6-1.4 4.4-2 8-1.8V5.4c-3.6-.2-6.4.4-8 1.8Z" {...stroke} />
+    <path d="M12 7.2V19" {...stroke} opacity="0.6" />
+  </svg>
+)
+// Brunel Society of Blockchain — three linked nodes.
+const BlockchainSoc = (p) => (
+  <svg {...base(p)}>
+    <path d="M12 5.2 6.4 15.6M12 5.2l5.6 10.4M6.4 15.6h11.2" {...stroke} opacity="0.65" />
+    <rect x="9.4" y="2.6" width="5.2" height="5.2" rx="1.6" {...stroke} />
+    <rect x="3.8" y="13" width="5.2" height="5.2" rx="1.6" {...stroke} />
+    <rect x="15" y="13" width="5.2" height="5.2" rx="1.6" {...stroke} />
+  </svg>
+)
 
 /* ---- education crests ---- */
 const BrunelCrest = (p) => (
@@ -193,6 +217,7 @@ const REGISTRY = {
   code: Code, layers: Layers, database: Database, terminal: Terminal,
   github: GitHub, leetcode: LeetCode, hackerrank: HackerRank, substack: Substack,
   deepmind: DeepMind, screenshare: ScreenShare, jam: Jam,
+  hillingdon: Hillingdon, uxbridgelibrary: UxbridgeLibrary, blockchainsoc: BlockchainSoc,
   brunel: BrunelCrest, kingston: KingstonCrest,
   rae: RAE, ieee: IEEE, acm: ACM, bcs: BCS, isoc: ISOC, cyf: CYF,
 }

@@ -1,0 +1,13 @@
+<!-- Brunel Society of Blockchain — three linked nodes (a distributed chain) on
+     Brunel's Prussian blue. An original mark, not the society's own logo. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Brunel Society of Blockchain">
+  <rect width="256" height="256" fill="#002951"/>
+  <g stroke="#ffffff" stroke-width="11" stroke-linecap="round" opacity="0.75">
+    <path d="M128 74 70 176M128 74l58 102M70 176h116"/>
+  </g>
+  <g fill="#ffffff">
+    <rect x="104" y="50" width="48" height="48" rx="13"/>
+    <rect x="46" y="152" width="48" height="48" rx="13"/>
+    <rect x="162" y="152" width="48" height="48" rx="13"/>
+  </g>
+</svg>

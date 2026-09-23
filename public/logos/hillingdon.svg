@@ -1,0 +1,14 @@
+<!-- Hillingdon Council — civic mark on the council's brand teal (#00685e).
+     An original, simplified civic-building emblem, not the council's crest. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Hillingdon Council">
+  <rect width="256" height="256" fill="#00685e"/>
+  <g fill="#ffffff">
+    <path d="M128 48 222 106H34Z"/>
+    <rect x="42" y="112" width="172" height="15" rx="3"/>
+    <rect x="54" y="134" width="22" height="68" rx="3"/>
+    <rect x="96" y="134" width="22" height="68" rx="3"/>
+    <rect x="138" y="134" width="22" height="68" rx="3"/>
+    <rect x="180" y="134" width="22" height="68" rx="3"/>
+    <rect x="34" y="208" width="188" height="16" rx="3"/>
+  </g>
+</svg>

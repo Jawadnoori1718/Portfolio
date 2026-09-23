@@ -704,7 +704,9 @@ a[href], button, .link-out, label[for] { cursor: pointer; }
   border: 1px solid var(--border);
   color: var(--blue);
 }
-.exp__role { font: 600 18px/1.2 var(--font-display); color: #fff; }
+/* balance keeps longer titles ("Software Engineering Placement Intern") from
+   wrapping to a lonely last word */
+.exp__role { font: 600 18px/1.2 var(--font-display); color: #fff; text-wrap: balance; }
 .exp__org { font-size: 14px; color: var(--text-dim); margin-top: 3px; }
 .exp__meta {
   list-style: none; padding: 0; margin: 0 0 16px;
@@ -854,7 +856,9 @@ a[href], button, .link-out, label[for] { cursor: pointer; }
   color: var(--violet);
 }
 .edu__school { font: 600 19px/1.25 var(--font-display); color: #fff; }
-.edu__course { font-size: 14.5px; color: var(--text-dim); margin-top: 4px; }
+/* balance keeps a bracketed specialism on its own line rather than splitting
+   mid-parenthesis */
+.edu__course { font-size: 14.5px; color: var(--text-dim); margin-top: 4px; text-wrap: balance; }
 .edu__modules-label {
   font: 600 11px/1 var(--font-mono);
   letter-spacing: 0.18em; text-transform: uppercase;

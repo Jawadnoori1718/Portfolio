@@ -63,7 +63,23 @@ export const NAV_ITEMS = [
   { label: 'Contact', target: 'contact' },
 ]
 
+// Reverse-chronological. `color` is the org's brand colour; the card blends it
+// toward the page background (see `shade`). Brands whose colour is already very
+// dark can pass an optional `shade` amount to keep the card at the same visual
+// weight as its neighbours.
 export const EXPERIENCE = [
+  {
+    role: 'Software Engineering Placement Intern',
+    org: 'Hillingdon Council',
+    logo: 'hillingdon',
+    url: 'https://www.hillingdon.gov.uk/',
+    color: '#00685e', // Hillingdon Council teal — their exact brand colour
+    shade: 0.5, // already a dark teal, so blend it less
+    date: 'Sep 2026 – Sep 2027',
+    location: 'Uxbridge, UK',
+    summary:
+      'Year-long placement with the council’s digital team, building and supporting software behind public services.',
+  },
   {
     role: 'AI Research Intern',
     org: 'Google DeepMind',
@@ -74,6 +90,17 @@ export const EXPERIENCE = [
     location: 'Nottingham, UK',
     summary:
       'Working on AI-focused research and technical exploration in a rigorous learning environment.',
+  },
+  {
+    role: 'Vice President',
+    org: 'Brunel Society of Blockchain',
+    logo: 'blockchainsoc',
+    url: 'https://www.brunelstudents.com/activities/societies/',
+    color: '#d99a2b', // society gold, set against Brunel blue in the mark
+    date: 'Sep 2025 – Jun 2026',
+    location: 'Uxbridge, UK',
+    summary:
+      'Led the society alongside the President — running talks, workshops and socials on blockchain and distributed systems.',
   },
   {
     role: 'TechOps Intern',
@@ -96,6 +123,17 @@ export const EXPERIENCE = [
     location: 'London, UK',
     summary:
       'Supported students in understanding core programming concepts and problem solving.',
+  },
+  {
+    role: 'Digi Help Assistant (Volunteer)',
+    org: 'Uxbridge Library',
+    logo: 'uxbridgelibrary',
+    url: 'https://www.hillingdon.gov.uk/volunteering-in-libraries',
+    color: '#a8388a', // Hillingdon Libraries plum
+    date: 'Sep 2024 – Jun 2025',
+    location: 'Uxbridge, UK',
+    summary:
+      'Volunteered weekly helping library visitors build digital confidence — devices, online services and everyday tech.',
   },
 ]
 
@@ -162,7 +200,7 @@ export const EDUCATION = [
     url: 'https://www.brunel.ac.uk/',
     color: '#002951', // Brunel Prussian Blue — exact brand colour
     solidBg: true,
-    course: 'BSc Computer Science',
+    course: 'BSc Computer Science (Artificial Intelligence)',
     date: 'Sep 2024 – Jun 2027',
     result: 'Predicted First Class Honours',
     modules: [
