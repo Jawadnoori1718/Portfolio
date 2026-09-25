@@ -140,6 +140,15 @@ export const EXPERIENCE = [
 // Each project links out to a live demo and its GitHub repo.
 export const PROJECTS = [
   {
+    name: 'SunCircle',
+    art: 'globe',
+    img: 'suncircle',
+    summary:
+      'Peer-to-peer solar venture — buy cheaper local energy from a verified neighbour, or share and earn from your own panels. Live waitlist site backed by competitions and accelerators.',
+    demo: 'https://suncircle.co.uk/',
+    repo: 'https://github.com/Jawadnoori1718/Suncircle-Website',
+  },
+  {
     name: 'Drift',
     art: 'globe',
     img: 'drift',
@@ -164,6 +173,14 @@ export const PROJECTS = [
     summary:
       'Turns any webcam into a programmable eye — open-vocabulary YOLO-World detection, zone counting and a plain-language rules engine, running fully offline on GPU.',
     repo: 'https://github.com/Jawadnoori1718/BigBrother---AI-Powered-Camera-Intelligence',
+  },
+  {
+    name: 'PashtoBench',
+    art: 'dashboard',
+    img: 'pashtobench',
+    summary:
+      'The first unified capability and safety benchmark for Pashto — 265 native-authored items across four tasks, exposing open models that refuse harmful requests in English but comply in Pashto.',
+    repo: 'https://github.com/Jawadnoori1718/PashtoBench',
   },
   {
     name: 'PersianToken',
