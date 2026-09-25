@@ -8,9 +8,12 @@ to a built-in placeholder emblem automatically — nothing breaks.
 ## Filenames
 
 Experience:
-- `deepmind`   → Google DeepMind
-- `screenshare`→ Screen Share UK
-- `jam`        → Jam Coding
+- `hillingdon`     → Hillingdon Council
+- `deepmind`       → Google DeepMind
+- `blockchainsoc`  → Brunel Society of Blockchain
+- `screenshare`    → Screen Share UK
+- `jam`            → Jam Coding
+- `uxbridgelibrary`→ Uxbridge Library
 
 Education:
 - `brunel`     → Brunel University of London

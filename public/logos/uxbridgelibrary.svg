@@ -1,9 +1,0 @@
-<!-- Uxbridge Library — an open book, drawn as two solid pages with a clear
-     spine gap so the shape still reads at a 50px tile. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Uxbridge Library">
-  <rect width="256" height="256" fill="#a8388a"/>
-  <g fill="#ffffff">
-    <path d="M120 84c-16-14-46-20-76-18v116c30-2 60 4 76 18Z"/>
-    <path d="M136 84c16-14 46-20 76-18v116c-30-2-60 4-76 18Z"/>
-  </g>
-</svg>
