@@ -39,5 +39,8 @@ Every tile is the same size (50×50, rounded) and the image is shown with
 - A logo that already has its own coloured background (ACM, DeepMind, Kingston,
   Screen Share, RAE, Internet Society, Brunel) will sit edge-to-edge and look
   like a neat square chip.
-- Transparent-background logos work too; they'll show on the card's colour.
+- Transparent-background logos show the card's own colour behind them, which
+  can kill the contrast on a dark mark. When that happens, give the entry a
+  `logoBg` in `content.js` (e.g. `logoBg: '#ffffff'`) to put a solid tile
+  behind it instead of editing the image.
 - ~256×256 px (or SVG) is plenty.

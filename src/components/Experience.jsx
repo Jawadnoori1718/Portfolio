@@ -27,6 +27,7 @@ export default function Experience() {
                 target="_blank"
                 rel="noreferrer noopener"
                 aria-label={job.org}
+                style={job.logoBg ? { background: job.logoBg } : undefined}
               >
                 <BrandLogo slug={job.logo} fallback={job.logo} />
               </a>
