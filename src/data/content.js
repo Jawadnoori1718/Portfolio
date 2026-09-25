@@ -97,9 +97,6 @@ export const EXPERIENCE = [
     logo: 'blockchainsoc',
     url: 'https://www.brunelstudents.com/activities/societies/',
     color: '#d99a2b', // society gold, set against Brunel blue in the mark
-    // The society mark is navy on a transparent background, so it needs a
-    // light tile behind it rather than the card's own colour.
-    logoBg: '#ffffff',
     date: 'Sep 2025 – Jun 2026',
     location: 'Uxbridge, UK',
     summary:
@@ -133,6 +130,9 @@ export const EXPERIENCE = [
     logo: 'uxbridgelibrary',
     url: 'https://www.hillingdon.gov.uk/volunteering-in-libraries',
     color: '#a8388a', // Hillingdon Libraries plum
+    // The library mark is dark line-art on a transparent background, so it
+    // needs a light tile behind it rather than the card's own colour.
+    logoBg: '#ffffff',
     date: 'Sep 2024 – Jun 2025',
     location: 'Uxbridge, UK',
     summary:
