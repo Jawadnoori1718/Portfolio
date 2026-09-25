@@ -138,16 +138,9 @@ export const EXPERIENCE = [
 ]
 
 // Each project links out to a live demo and its GitHub repo.
+// Order here is the order on the page: a 2-column grid, so each pair below
+// sits side by side as one row.
 export const PROJECTS = [
-  {
-    name: 'SunCircle',
-    art: 'globe',
-    img: 'suncircle',
-    summary:
-      'Peer-to-peer solar venture — buy cheaper local energy from a verified neighbour, or share and earn from your own panels. Live waitlist site backed by competitions and accelerators.',
-    demo: 'https://suncircle.co.uk/',
-    repo: 'https://github.com/Jawadnoori1718/Suncircle-Website',
-  },
   {
     name: 'Drift',
     art: 'globe',
@@ -175,12 +168,13 @@ export const PROJECTS = [
     repo: 'https://github.com/Jawadnoori1718/BigBrother---AI-Powered-Camera-Intelligence',
   },
   {
-    name: 'PashtoBench',
+    name: 'HillingOne',
     art: 'dashboard',
-    img: 'pashtobench',
+    img: 'hillingone',
     summary:
-      'The first unified capability and safety benchmark for Pashto — 265 native-authored items across four tasks, exposing open models that refuse harmful requests in English but comply in Pashto.',
-    repo: 'https://github.com/Jawadnoori1718/PashtoBench',
+      'Agentic booking system for council spaces. AI agents handle conflicts, optimise usage and improve accessibility.',
+    demo: 'https://hillingone.vercel.app/',
+    repo: 'https://github.com/Jawadnoori1718/HillingOne---Smart-Booking-System',
   },
   {
     name: 'PersianToken',
@@ -191,13 +185,21 @@ export const PROJECTS = [
     repo: 'https://github.com/Jawadnoori1718/PersianToken',
   },
   {
-    name: 'HillingOne',
+    name: 'PashtoBench',
     art: 'dashboard',
-    img: 'hillingone',
+    img: 'pashtobench',
     summary:
-      'Agentic booking system for council spaces. AI agents handle conflicts, optimise usage and improve accessibility.',
-    demo: 'https://hillingone.vercel.app/',
-    repo: 'https://github.com/Jawadnoori1718/HillingOne---Smart-Booking-System',
+      'The first unified capability and safety benchmark for Pashto — 265 native-authored items across four tasks, exposing open models that refuse harmful requests in English but comply in Pashto.',
+    repo: 'https://github.com/Jawadnoori1718/PashtoBench',
+  },
+  {
+    name: 'SunCircle',
+    art: 'globe',
+    img: 'suncircle',
+    summary:
+      'Peer-to-peer solar venture — buy cheaper local energy from a verified neighbour, or share and earn from your own panels. Live waitlist site backed by competitions and accelerators.',
+    demo: 'https://suncircle.co.uk/',
+    repo: 'https://github.com/Jawadnoori1718/Suncircle-Website',
   },
   {
     name: 'Robot Shape Drawing System',
